@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* primary section */
+.btn-primary {
+  background: red;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+}
+.primary-color {
+  color: red;
+}
+.txt-center {
+  text-align: center;
+}
+/* banner section start */
+
+.img-container {
+  /* background-image: url("images/Banner\ Image.png"); */
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container h3 {
+  font-size: 32px;
+}
+.img-container h1 {
+  font-size: 70px;
+}
+/* banner section end */
+#discount {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#d-sec .discount-section h3 {
+  margin-bottom: 20px;
+}
+.discount-section {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#d-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#d-sec img {
+  width: 800px;
+  height: 500px;
+}
+/* welcome section */
+.welcome {
+  background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url("images/Vectorrr.png");
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  height: 600px;
+  margin: 120px 0;
+}
+.welcome h1 {
+    color: white;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+}
+.welcome p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.welcome div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 120px;
+}
+/* place */
+#place {
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#place div {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+/* coming section */
+.coming-section {
+  width: 100%;
+  height: 450px;
+  margin-top: 120px;
+}
+.coming-section .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.div-1,
+.div-2,
+.div-3 {
+  flex: 1;
+}
+.div-1 {
+  margin-left: 80px;
+}
+.div-3 {
+  margin-right: 80px;
+}
+.div-1 h1 {
+  font-size: 45px;
+  font-family: serif;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.div-1 p {
+  padding-right: 50px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.div-2 img {
+  border: 15px solid red;
+  border-radius: 100%;
+  padding: 15px;
+}
+.div-3 h1 {
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.div-3 p {
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 20px;
+}
+
+/* footer section */
+.footer-section {
+  height: 600px;
+  background: #000;
+  color: #fff;
+}
+.footer-section .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  line-height: 30px;
+  font-size: 20px;
+}
+.footer-section .icon {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+.footer-section .icon img {
+  border: 1px dashed #333;
+  padding: 5px;
+}
+#botton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0 150px;
+  font-size: 20px;
+}
