@@ -134,6 +134,7 @@
 }
 .div-3 {
   margin-right: 80px;
+  margin-left: 80px;
 }
 .div-1 h1 {
   font-size: 45px;
@@ -158,6 +159,7 @@
   color: rgba(7, 2, 17, 0.6);
   margin-bottom: 20px;
 }
+
 
 /* footer section */
 .footer-section {
