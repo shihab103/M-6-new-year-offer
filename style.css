@@ -67,7 +67,7 @@
 }
 /* welcome section */
 .welcome {
-  background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
     url("images/Vectorrr.png");
   background-size: cover; /* Ensure the image covers the entire area */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -76,7 +76,7 @@
   margin: 120px 0;
 }
 .welcome h1 {
-    color: white;
+  color: white;
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
@@ -87,13 +87,13 @@
   font-weight: 400;
   margin-bottom: 15px;
 }
-.welcome div{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left: 120px;
+.welcome div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 120px;
 }
 /* place */
 #place {
@@ -130,7 +130,7 @@
   flex: 1;
 }
 .div-1 {
-  margin-left: 80px;
+  margin-left: 100px;
 }
 .div-3 {
   margin-right: 80px;
@@ -159,6 +159,66 @@
   color: rgba(7, 2, 17, 0.6);
   margin-bottom: 20px;
 }
+/* subscribe section */
+.subscribe-section {
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+
+.subscribe {
+  height: 600px;
+  background: #000;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+.subscribe img {
+  width: 150px;
+  border: 1px dashed rgba(7, 2, 17, 0.6);
+  padding: 10px;
+}
+.subscribe h1 {
+  font-family: serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.subscribe p{
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 0 200px;
+  text-align: justify;
+}
+#sub{
+  width: 650px;
+  height: 70px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#sub input[type="email"]{
+  padding: 15px;
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+#sub input[type="submit"]{
+  padding: 15px 35px;
+  color: #fff;
+  border: none;
+  background: red;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+
 
 
 /* footer section */
@@ -186,7 +246,7 @@
   border: 1px dashed #333;
   padding: 5px;
 }
-#botton {
+#bottom{
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
