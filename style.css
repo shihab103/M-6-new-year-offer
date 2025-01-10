@@ -159,6 +159,80 @@
   color: rgba(7, 2, 17, 0.6);
   margin-bottom: 20px;
 }
+/* Holiday section */
+.holiday-section {
+  height: 950px;
+}
+.holiday-section .text {
+  height: 250px;
+  text-align: center;
+  align-content: center;
+}
+.holiday-section .text h3 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.holiday-section .text h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  font-family: serif;
+}
+.holiday-section .text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 300px;
+}
+#photo{
+  display: flex;
+  background-image: url("images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: space-between;
+}
+#photo .first-img{
+  width: 700px;
+  height: 600px;
+}
+#photo .second-img{
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+/* portfolio section */
+.photo-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.photo-section img {
+  max-width: 300px;
+}
+
+#portfolio-section div h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  font-family: serif;
+}
+#portfolio-section div p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.p-title {
+  width: 80%;
+  margin: 50px auto;
+}
 /* subscribe section */
 .subscribe-section {
   margin-bottom: 120px;
@@ -188,7 +262,7 @@
   font-weight: 900;
   line-height: 60px;
 }
-.subscribe p{
+.subscribe p {
   color: rgba(7, 2, 17, 0.6);
   font-size: 25px;
   font-weight: 400;
@@ -196,20 +270,23 @@
   padding: 0 200px;
   text-align: justify;
 }
-#sub{
+#sub {
   width: 650px;
-  height: 70px;
+  height: 50px;
   margin-top: 30px;
   text-align: center;
+  display: flex;
+  gap: 0;
+  justify-content: center;
 }
 
-#sub input[type="email"]{
+#sub input[type="email"] {
   padding: 15px;
   border: none;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
-#sub input[type="submit"]{
+#sub input[type="submit"] {
   padding: 15px 35px;
   color: #fff;
   border: none;
@@ -217,9 +294,6 @@
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-
-
-
 
 /* footer section */
 .footer-section {
@@ -246,7 +320,7 @@
   border: 1px dashed #333;
   padding: 5px;
 }
-#bottom{
+#bottom {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
