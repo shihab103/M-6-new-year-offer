@@ -162,6 +162,7 @@
 /* Holiday section */
 .holiday-section {
   height: 950px;
+  margin-top: 120px;
 }
 .holiday-section .text {
   height: 250px;
